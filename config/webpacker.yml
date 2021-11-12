@@ -32,6 +32,8 @@ default: &default
     - .woff
     - .woff2
     - .mp4
+    - .m3u8
+    - .ts
 
   extensions:
     - .mjs
@@ -48,6 +50,8 @@ default: &default
     - .jpeg
     - .jpg
     - .mp4
+    - .m3u8
+    - .ts
 
 development:
   <<: *default
