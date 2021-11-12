@@ -32,10 +32,11 @@ default: &default
     - .woff
     - .woff2
     - .mp4
-    - .m3u8
+    - .m3u8.erb
     - .m2ts
 
   extensions:
+    - .erb
     - .mjs
     - .js
     - .sass
@@ -50,7 +51,6 @@ default: &default
     - .jpeg
     - .jpg
     - .mp4
-    - .m3u8
     - .m2ts
 
 development:
