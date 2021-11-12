@@ -1,8 +1,8 @@
-import Rails from "@rails/ujs"
-
-const images = require.context('../images', true)
-const imagePath = (name) => images(name, true)
-
 import "../stylesheets/application"
+
+require.context('../images', true)
+require.context("../videos", true);
+
+import Rails from "@rails/ujs"
 
 Rails.start()
