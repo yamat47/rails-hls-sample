@@ -4,5 +4,6 @@ require.context('../images', true)
 require.context("../videos", true);
 
 import Rails from "@rails/ujs"
-
 Rails.start()
+
+import "../src/loadHls"

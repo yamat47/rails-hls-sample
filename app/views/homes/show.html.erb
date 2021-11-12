@@ -1,2 +1,2 @@
 <%= image_pack_tag 'main.png' %>
-<%= video_tag asset_pack_path('media/videos/video.mp4') %>
+<%= video_tag asset_pack_path('media/videos/video.mp4'), class: 'js-hls-video', controls: true, data: { 'hls-src': asset_pack_path('media/videos/video.m3u8') } %>

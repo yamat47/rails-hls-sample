@@ -78,6 +78,5 @@ module.exports = function(api) {
         }
       ]
     ].filter(Boolean),
-    ignore: ['app/javascript/videos']
   }
 }
