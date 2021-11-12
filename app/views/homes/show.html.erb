@@ -1,2 +1,23 @@
-<%= image_pack_tag 'main.png' %>
+<h2 class='subtitle is-4 mb-2'>
+  Example 1
+</h2>
+<p class='mb-2'>
+  <code>video</code> tag with <code>src</code> attribute.
+</p>
+<%= video_tag asset_pack_path('media/videos/video.mp4'), controls: true %>
+
+<h2 class='subtitle is-4 mt-4 mb-2'>
+  Example 2
+</h2>
+<p class='mb-2'>
+  <code>video</code> tag with <code>src</code> attribute and HLS setting.
+</p>
+<%= video_tag '', class: 'js-hls-video', controls: true, data: { 'hls-src': asset_pack_path('media/videos/video.m3u8.erb') } %>
+
+<h2 class='subtitle is-4 mt-4 mb-2'>
+  Example 3
+</h2>
+<p class='mb-2'>
+  <code>video</code> tag with HLS setting. (<code>src</code> attribute is not set)
+</p>
 <%= video_tag asset_pack_path('media/videos/video.mp4'), class: 'js-hls-video', controls: true, data: { 'hls-src': asset_pack_path('media/videos/video.m3u8.erb') } %>
