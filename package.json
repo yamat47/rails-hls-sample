@@ -2,14 +2,14 @@
   "name": "rails-hls-sample",
   "private": true,
   "dependencies": {
-    "@rails/ujs": "^6.0.0",
+    "@rails/ujs": "^7.0.2",
     "@rails/webpacker": "5.4.3",
-    "hls.js": "^1.1.1",
-    "webpack": "^4.46.0",
-    "webpack-cli": "^3.3.12"
+    "hls.js": "^1.1.5",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
   },
   "version": "0.1.0",
   "devDependencies": {
-    "webpack-dev-server": "^3"
+    "webpack-dev-server": "^4"
   }
 }
